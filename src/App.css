@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
-/* Global Styles */
+/* Global Styles with CSS */
 :root {
   --primary-color: #dc3545;
   --dark-color: #333333;
@@ -8,7 +8,6 @@
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -260,7 +259,6 @@ img {
   background: var(--light-color);
   color: #333;
 }
-
 .btn-dark,
 .bg-dark,
 .badge-dark,
@@ -268,7 +266,6 @@ img {
   background: var(--dark-color);
   color: #fff;
 }
-
 .btn-danger,
 .bg-danger,
 .badge-danger,
@@ -276,7 +273,6 @@ img {
   background: var(--danger-color);
   color: #fff;
 }
-
 .btn-success,
 .bg-success,
 .badge-success,
@@ -284,7 +280,6 @@ img {
   background: var(--success-color);
   color: #fff;
 }
-
 .btn-white,
 .bg-white,
 .badge-white,
@@ -293,31 +288,25 @@ img {
   color: #333;
   border: #ccc solid 1px;
 }
-
 .btn:hover {
   opacity: 0.8;
 }
-
 .bg-light,
 .badge-light {
   border: #ccc solid 1px;
 }
-
 .round-img {
   border-radius: 50%;
 }
-
 /* Forms */
 input {
   margin: 1.2rem 0;
 }
-
 .form-text {
   display: block;
   margin-top: 0.3rem;
   color: #888;
 }
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -330,22 +319,18 @@ textarea {
   font-size: 1.2rem;
   border: 1px solid #ccc;
 }
-
 input[type="submit"],
 button {
   font: inherit;
 }
-
 table th,
 table td {
   padding: 1rem;
   text-align: left;
 }
-
 table th {
   background: var(--light-color);
 }
-
 /* Navbar */
 .navbar {
   display: flex;
@@ -357,56 +342,45 @@ table th {
   opacity: 0.9;
   margin-bottom: 1rem;
 }
-
 .navbar ul {
   display: flex;
 }
-
 .navbar a {
   color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
 }
-
 .navbar a:hover {
   color: var(--light-color);
 }
-
 .navbar .welcome span {
   margin-right: 0.6rem;
 }
-
 /* Mobile Styles */
 @media (max-width: 700px) {
   .hide-sm {
     display: none;
   }
-
   .grid-2,
   .grid-3,
   .grid-4 {
     grid-template-columns: 1fr;
   }
-
   /* Text Styles */
   .x-large {
     font-size: 3rem;
   }
-
   .large {
     font-size: 2rem;
   }
-
   .lead {
     font-size: 1rem;
   }
-
   /* Navbar */
   .navbar {
     display: block;
     text-align: center;
   }
-
   .navbar ul {
     text-align: center;
     justify-content: center;
